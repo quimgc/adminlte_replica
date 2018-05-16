@@ -1,5 +1,5 @@
 <template>
-  <body>
+  <div>
     <header>
       <div class="brand">
         <a href="#">Acacha Tasks</a>
@@ -316,7 +316,7 @@
         AdminLTE Created by Abdullah Almsaeed <a href="https://almsaeedstudio.com/">almsaeedstudio.com</a> <br>
         Pratt Landing Page PROVA Created by <a href="http://www.blacktie.co">BLACKTIE.CO</a></p>
     </footer>
-  </body>
+  </div>
 
 </template>
 
