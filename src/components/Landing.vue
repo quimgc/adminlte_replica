@@ -1,33 +1,9 @@
 <template>
   <div>
-    <header>
-      <div class="brand">
-        <a href="#">Acacha Tasks</a>
-      </div>
-
-      <nav class="main-navigation">
-        <ul>
-          <li><a href="#Home">Home</a></li>
-          <li><a href="#Home">Description</a></li>
-          <li><a href="#Home">ShowCase</a></li>
-          <li><a href="#Home">Contact</a></li>
-        </ul>
-      </nav>
-
-      <nav class="login">
-        <ul>
-          <li>Login</li>
-          <li>Register</li>
-        </ul>
-      </nav>
-
-    </header>
     <section class="home">
-      <h1><a href="#">Acacha Tasks</a></h1>
-      <h2>... a wonderful task manager!</h2>
-      <button class="btn btn-success">Get started!</button>
-      <!--<img src="../assets/todolist.jpg">-->
-
+      <h1>Quimgc ADMINLTE REPLICA</h1>
+      <h2>LANDING PAGE</h2>
+		<a class="btn btn-success" href="#/login">LOGIN</a>
     </section>
 
     <section class="description">
@@ -303,18 +279,8 @@
 
     </section>
 
-    <section class="showcase">
-      asdasdsad
-    </section>
-
-    <section class="contact">
-      Contact form
-      <form action=""></form>
-    </section>
     <footer>
-      <p><a href="https://github.com/acacha/adminlte-laravel"></a><b>admin-lte-laravel</b>. A Laravel 5 package that switchs default Laravel scaffolding/boilerplate to AdminLTE template.<br> <strong>Copyright © 2015 <a href="http://acacha.org">Acacha.org</a>.</strong> Created by <a href="http://acacha.org/sergitur">Sergi Tur Badenas</a>. See code at <a href="https://github.com/acacha/adminlte-laravel">Github</a> <br>
-        AdminLTE Created by Abdullah Almsaeed <a href="https://almsaeedstudio.com/">almsaeedstudio.com</a> <br>
-        Pratt Landing Page PROVA Created by <a href="http://www.blacktie.co">BLACKTIE.CO</a></p>
+		<p>Còpia de Landing Page de l'ADMINLTE. Realitzat per <b><a target="_blank" href="https://www.github.com/quimgc">quimgc</a></b>.</p>
     </footer>
   </div>
 
@@ -322,7 +288,7 @@
 
 <script>
 export default {
-  name: 'Login',
+  name: 'Landing',
   data () {
     return {
       msg: 'todo'
@@ -338,16 +304,16 @@ a {
   color: inherit;
 }
 
-body {
-  background-color: #f2f2f2;
-  font-family: "Lato";
+div {
+  background-color: #f2cc90;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-size: 16px;
-  color: #555;
+  color: #4a0132;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway";
   font-weight: 300;
   color: #333;
 }
@@ -356,60 +322,6 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-header {
-  background-color: #f9f9f8;
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-  min-height: 50px;
-  color: #555;
-  font-size: 16px;
-}
-
-header .brand {
-  display: flex;
-  align-items: center;
-  padding: 0.5em;
-  font-weight: 900;
-  font-size: 18px;
-}
-
-header .main-navigation {
-  /*background-color: #f2f2f2;*/
-  width: 1170px;
-  display: flex;
-}
-
-header .main-navigation ul {
-  display: flex;
-  /*justify-content: flex-start;*/
-}
-
-header .main-navigation ul li {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.5em;
-}
-
-header .main-navigation ul li:hover,header .brand:hover, header .login ul li:hover {
-  background-color: #e7e7e7;
-  cursor: pointer;
-  font-weight: 600;
-}
-
-header .login ul {
-  display: flex;
-  align-items: stretch;
-  min-height: 50px;
-}
-
-header .login li {
-  display: flex;
-  align-items: center;
-  padding: 0.5em;
 }
 
 .home {
@@ -434,9 +346,14 @@ header .login li {
   color: #fff;
 }
 
-.home a {
-  color: #3bc492;
+.home h1 {
+  color: #c4aa6c;
   font-weight: 600;
+}
+
+.home a {
+	padding: 40px;
+	font-size: 40px;
 }
 
 .btn {
@@ -447,12 +364,13 @@ header .login li {
   margin-bottom: 1em;
 }
 
+
 .btn-success {
-  background-color: #5db85d;
+  background-color: #b83217;
 }
 
 .btn-success:hover {
-  background-color: #459d45;
+  background-color: #9d5237;
 }
 
 .home img {
@@ -463,6 +381,8 @@ header .login li {
   display: flex;
   flex-direction: column;
   align-items: center;
+	position:center;
+	bottom:0px;
 }
 
 .description .features {
@@ -473,18 +393,22 @@ header .login li {
   height: 10em;
   width: 10em;
 }
+.description {
 
-.contact {
-  background-color:  #303030;
-  color: #fff;
 }
-
 footer {
-  background-color: #222222;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  text-align: center;
+	border-radius: 10px;
+	background-color: #222222;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	position:fixed;
+	bottom:0px;
+	width:100%;
+}
+footer a {
+	text-decoration: underline  !important;
 }
 
 </style>
