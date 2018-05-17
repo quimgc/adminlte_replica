@@ -1,12 +1,54 @@
 <template>
   <div class="main">
 	  <nav class="flex-end">
+		  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 489.4 489.4" style="enable-background:new 0 0 489.4 489.4;" xml:space="preserve" width="20px" height="20px">
+<g>
+	<g>
+		<path d="M407,0H82.4C37,0,0,37,0,82.6v162.1c0,9.9,8.1,18,18,18h276.7L255,302.4c-7,7-7,18.4,0,25.5c3.5,3.5,8.1,5.3,12.7,5.3    c4.6,0,9.2-1.8,12.7-5.3l70.4-70.4c7-7,7-18.4,0-25.5l-70.4-70.4c-7-7-18.4-7-25.5,0c-7,7-7,18.4,0,25.5l39.8,39.6H36V82.6    C36,56.9,56.8,36,82.4,36H407c25.6,0,46.4,20.9,46.4,46.6v324.2c0,25.7-20.8,46.6-46.4,46.6H82.4c-25.6,0-46.4-20.9-46.4-46.6v-42    c0-9.9-8.1-18-18-18c-9.9,0-18,8.1-18,18v42c0,45.5,37,82.6,82.4,82.6H407c45.4,0,82.4-37,82.4-82.6V82.6    C489.4,37.1,452.4,0,407,0z" fill="#FFFFFF"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
 		  <a class="link-hover" href="#/login">Login</a>
 		  <a class="link-hover" href="#/login">Register</a>
 	  </nav>
 	  <div class="title">
 		  <h1><a class="link-hover" href="https://github.com/quimgc">Quimgc</a> <a class="link-hover" href="https://adminlte.io/">ADMINLTE</a> "Replica"</h1>
 
+	  </div>
+	  <div class=" subtitle center">
+		  Casi replica de l'AdminLTE. Com que no sé que posar, aqui va un acudit:
+		  <br/>- ¡Soldado, ice la bandera!
+		  <br/>+ ¡Enhorabuena, sargento, le ha quedado muy bien!
 	  </div>
 	  <div class="login center">
 		  <a class="btn btn-login radius-25" href="#/login">LOGIN</a>
@@ -50,9 +92,47 @@
 </svg></p>
 		<p>347176841</p>
 	  </div>
+	  <div class="like center">
+		  Recorda't de donar el teu&nbsp;<a href="#"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve" width="20px" height="20px">
+<path style="fill:#D75A4A;" d="M24.85,10.126c2.018-4.783,6.628-8.125,11.99-8.125c7.223,0,12.425,6.179,13.079,13.543
+	c0,0,0.353,1.828-0.424,5.119c-1.058,4.482-3.545,8.464-6.898,11.503L24.85,48L7.402,32.165c-3.353-3.038-5.84-7.021-6.898-11.503
+	c-0.777-3.291-0.424-5.119-0.424-5.119C0.734,8.179,5.936,2,13.159,2C18.522,2,22.832,5.343,24.85,10.126z"/>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg></a> &nbsp;al paquet.
+	  </div>
 	<footer class="fixed-end">
 		<p><b>Created by:</b> <a class="link-hover" href="https://github.com/quimgc">Quimgc</a></p>
-		<p> &copy;	2018</p>
+		<p> Copyright &copy; 2017-2018</p>
 		<p>All rights reserved.</p>
 		<div class="social-icons">
 			<a href="#">
@@ -229,29 +309,34 @@ export default {
 </script>
 
 <style scoped>
-	
+
 	.flex-end {
 		display: flex;
 		justify-content: flex-end;
 	}
 	nav{
-		margin-right: 10px;
+		align-items: center;
+		color: white;
+		background-color: #222222;
 	}
 
 	nav a {
-		padding: 10px;
+		margin: 10px;
 	}
 
 	.main {
+
+		position:absolute;
+		margin-left: auto;
+		margin-right: auto;
 		font-family: Arial, Helvetica, sans-serif;
-		display: flex;
-		flex-direction: column;
 		background-color: #DBDBDB;
 		height: 100%;
 		width: 100%;
 	}
 
 	.title {
+		background: linear-gradient(#222222, #DBDBDB);
 		display: flex;
 		align-items: center;
 		flex-direction: column;
@@ -272,6 +357,10 @@ export default {
 		color: #887F7F;
 	}
 
+	.subtitle {
+		font-size: 20px;
+		line-height: 1.6;
+	}
 	.btn {
 		padding: 50px;
 		border: none;
@@ -304,6 +393,8 @@ export default {
 
 	.center {
 		display: flex;
+		align-content: center;
+		text-align: center;
 		justify-content: center;
 	}
 
@@ -325,7 +416,7 @@ export default {
 		display: flex;
 		background-color: #222222;
 		color: #fff;
-		justify-content: space-around;
+		justify-content: space-between;
 		text-align: center;
 	}
 
@@ -342,6 +433,10 @@ export default {
 		justify-content: center;
 	}
 
+	.like {
+		display: flex;
+		margin-top: 40px;
+	}
 	.social-icons svg {
 		margin: 10px;
 	}
