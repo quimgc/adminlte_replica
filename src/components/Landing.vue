@@ -1,16 +1,15 @@
 <template>
   <div class="main">
 	  <div class="title">
-		  <h1><a href="https://github.com/quimgc">Quimgc</a> <a href="https://adminlte.io/">ADMINLTE</a> Replica</h1>
+		  <h1><a class="link-hover" href="https://github.com/quimgc">Quimgc</a> <a class="link-hover" href="https://adminlte.io/">ADMINLTE</a> Replica</h1>
 	  </div>
 	  <div class="login center">
-		  <button class="btn btn-login radius-25">LOGIN</button>
+		  <a class="btn btn-login radius-25" href="#/login">LOGIN</a>
 	  </div>
 	<footer class="fixed-end">
-		<div>
-			<p><b>Created by:</b> <a href="https://github.com/quimgc">Quimgc</a></p>
-			<p>All rights reserver</p>
-		</div>
+		<p><b>Created by:</b> <a class="link-hover" href="https://github.com/quimgc">Quimgc</a></p>
+		<p> &copy;	2018</p>
+		<p>All rights reserved</p>
 	</footer>
   </div>
 
@@ -55,6 +54,10 @@ export default {
 		color: inherit;
 	}
 
+	.link-hover:hover {
+		color: #887F7F;
+	}
+
 	.btn {
 		padding: 50px;
 		border: none;
@@ -86,7 +89,17 @@ export default {
 		justify-content: center;
 	}
 
+	footer {
+		display: flex;
+		background-color: #222222;
+		color: #fff;
+		justify-content: space-around;
+		text-align: center;
+	}
+
 	.fixed-end {
-		
+		position:fixed;
+		bottom:0px;
+		width:100%;
 	}
 </style>
