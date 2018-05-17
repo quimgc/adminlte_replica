@@ -142,6 +142,7 @@
     }
 
     body {
+        display: contents;
         font-family: 'Source Sans Pro','Helvetica Neue','Helvetica','Arial','sans-serif';
         font-weight: 400;
         font-size: 14px;
