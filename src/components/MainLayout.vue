@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <header>
-            <b>Admin</b>LTE
+            <b>Admin</b>LTEe
         </header>
         <nav class="header-nav">
             <a href="">
