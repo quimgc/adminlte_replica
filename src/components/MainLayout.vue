@@ -1,5 +1,4 @@
 <template>
-    <body>
     <div class="container">
         <header>
             <b>Admin</b>LTE
@@ -115,7 +114,6 @@
 
         <footer>FOOTER</footer>
     </div>
-    </body>
     <!--https://codepen.io/oknoblich/pen/klnjw-->
 </template>
 
