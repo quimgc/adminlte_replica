@@ -45,7 +45,7 @@
 
         margin-top: 5%;
         background-color: #d2d6de;
-        display: flex !important;
+        display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
