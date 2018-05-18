@@ -1,7 +1,7 @@
 <template>
     <div class="login">
 
-            <span class="logo"><b>Admin</b>LTEee</span>
+            <span class="logo"><b>Admin</b>LTE</span>
 
         <div class="login-box">
 
@@ -41,7 +41,7 @@
 
 <style scoped>
     body {
-        display: none;
+        display: flex !important;
     }
 </style>
 <style>
