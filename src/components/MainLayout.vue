@@ -139,7 +139,7 @@
     html, body, .container {
         margin: 0;
         height: 100%;
-        display: contents !important;
+        display: contents;
     }
 
     body {
