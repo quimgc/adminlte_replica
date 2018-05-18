@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <header>
-            <b>Admin</b>LTE
+            <b>Admin</b>LTEe
         </header>
         <nav class="header-nav">
             <a href="">
@@ -139,7 +139,7 @@
     html, body, .container {
         margin: 0;
         height: 100%;
-        display: contents !important;
+        display: grid;
     }
 
     body {
