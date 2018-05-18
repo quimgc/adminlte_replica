@@ -39,6 +39,11 @@
     </div>
 </template>
 
+<style scoped>
+    body {
+        display: flex !important;
+    }
+</style>
 <style>
 
     body {
