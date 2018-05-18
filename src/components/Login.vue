@@ -1,7 +1,7 @@
 <template>
     <div class="login">
 
-            <span class="logo"><b>Admin</b>LTE</span>
+            <span class="logo"><b>Admin</b>LTEee</span>
 
         <div class="login-box">
 
