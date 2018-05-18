@@ -41,7 +41,7 @@
 
 <style scoped>
     body {
-        display: flex !important;
+        display: none;
     }
 </style>
 <style>
